@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  .ls a {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: blue;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  .wk {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 15px;
+    flex-grow: 1;
+    margin-left: 15px;
+  }
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  a:hover {
+    color: #ddd;
+  }
+  .filter {
+    background: #222f3d;
+    color: snow;
+    height: 35px;
+    width: 200px;
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: none;
+    margin-left: 81%;
+    font-size: 15px;
+  }
+
+  .ls img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  header {
+    width: 100%;
+    background-color: #0f1111;
+  }
+  .navbar {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    color: #fff;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  .logo img {
+    margin-top: 10px;
+    width: 128px;
+  }
+  .add .del {
+    margin-left: 20px;
+    font-size: 0.75rem;
+    color: #ccc;
+  }
+  .add .set-icon {
+    display: flex;
+    align-items: center;
+  }
+
+  .ls{
+    background-color: #fff;
+    padding: 30px;
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    white-space: nowrap;
+  }
+
+  .navfind {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 620px;
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+  }
+  .selfind {
+    background: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+  }
+
+  .section-buy {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f3f3f3;
+    padding: 50px 0;
+  }
+
+  .sip {
+    max-width: 600px;
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+  }
+  .sic {
+    max-width: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background: #febd68;
+    color: #000;
+    cursor: pointer;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+  .login p,
+  .back p {
+    font-size: 0.75rem;
+  }
+  .login,
+  .back span {
+    font-size: 0.875rem;
+    font-weight: 600;
+  }
+  .cart {
+    display: flex;
+  }
+  .cart .cart-icon {
+    font-size: 2.5rem
+  }
+  .cart p {
+    margin-top: 20px;
+    font-weight: 500;
+  }
+  .banner {
+    padding: 10px 20px;
+    background: #222f3d;
+    color: #fff;
+    font-size: 0.875rem;
+  }
+  .banner-content {
+    margin: 0 auto;
+    max-width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nl {
+    max-width: 1280px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+  }
+  .nl span {
+    margin-right: 7px;
+  }
+
+  .wk a {
+    padding: 10px 0;
+  }
+  .deals a {
+    font-size: 0.9rem;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+
+  .section-main {
+    height: 400px;
+    background-image: url("https://images.pexels.com/photos/164357/pexels-photo-164357.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .shop-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    max-width: 1280px;
+    width: 100%;
+  }
+
+  .ls h3 {
+    margin-bottom: 10px;
+  }
+ 
+  .ls:hover a {
+    color: #c7511f;
+    text-decoration: underline;
+  }
+  
+  
